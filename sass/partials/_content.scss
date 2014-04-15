@@ -1,0 +1,65 @@
+.content {
+    padding: 40px 20px;
+    padding: 4rem 2rem;
+    text-align: center;
+    font-size: 22px;
+    font-size: 2.2rem;
+}
+
+.closest_schools {
+    display: none;
+}
+
+.closest_schools table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0 auto;
+}
+
+.closest_schools table th {
+    font-weight: bold;
+    vertical-align: bottom;
+}
+
+.closest_schools table th, .closest_schools table td {
+    border-bottom: 1px solid #222;
+    padding: 15px;
+    padding: 1.5rem;
+}
+
+.closest_schools ul {
+    list-style: none;
+}
+
+.closest_schools ul li {
+    margin-bottom: 40px;
+    margin-bottom: 4rem;
+}
+
+.closest_schools ul li:last-child {
+    margin-bottom: 0;
+}
+
+.user_input {
+    display: none;
+    border-style: solid;
+    border-color: #222;
+    border-width: 1px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px;
+    padding: 1rem;
+    font-size: 22px;
+    font-size: 2.2rem;
+}
+
+.log {
+    margin-bottom: 20px;
+    margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 640px) {
+    .closest_schools table {
+        font-size: 18px;
+        font-size: 1.8rem;
+    }
+}

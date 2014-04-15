@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>School Finder</title>
+    <!-- Favicon found here: http://www.freefavicon.com/freefavicons/objects/iconinfo/book_open.html -->
+    <link rel="shortcut icon" href="/favicon.ico?v=1" />
+    <link href='http://fonts.googleapis.com/css?family=Oswald:300|Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/main.min.css">
+</head>
+<body>
+    <header>
+        <h1 class="site-title"><a href="/">School Finder</a></h1>
+    </header>
+    <div class="content">
+        <div class="closest_schools">
+            <h1>The Three Closest Schools To You</h1>
+            <table>
+                <tr>
+                    <th>School Name</th>
+                    <th>Location</th>
+                    <th>Distance Away From You</th>
+                </tr>
+            </table>
+        </div>
+        <div class="log">Please enable JavaScript to use this application!</div>
+        <input type="text" pattern="[0-9]*" maxlength="5" required name="zip" class="user_input">
+    </div>
+</div>
+<script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+<script src="js/main.min.js"></script>
+</body>
+</html>
