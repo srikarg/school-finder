@@ -74,7 +74,7 @@ $ ->
     # Gets the provided JSON data file
 
     getSchools = () ->
-        query = '/data/schools.json'
+        query = 'http://srikarg.github.io/school-finder/data/schools.json'
         $.ajax {
             type: 'GET'
             dataType: 'json'
