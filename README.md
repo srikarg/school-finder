@@ -19,4 +19,4 @@ For the project, I used:
 
 # How can I run it?
 
-Simply download the repository and open `index.html`.
+Simply download the repository and open `index.html`. Alternatively, visit the live site [here](http://srikarg.github.io/school-finder/)!
