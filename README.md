@@ -17,6 +17,6 @@ For the project, I used:
 - [The Haversine Formula](http://en.wikipedia.org/wiki/Haversine_formula) (for calculating the shortest distance between a particular school and the user's location)
 - [Gulp](http://gulpjs.com/) (for auto-watching and auto-compiling SASS, CoffeeScript, and HTML files)
 
-# How can I use it?
+# How can I run it?
 
 Simply download the repository and open `index.html`.
